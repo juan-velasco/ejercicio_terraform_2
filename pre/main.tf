@@ -1,6 +1,6 @@
 terraform {
 
-  required_version = ">= 0.14, < 0.15"
+  required_version = ">= 1.0, < 1.1"
 
   # No se permiten variables en la configuración del backend (se debe copiar tal cual)
   # ¡IMPORTANTE! La key debe cambiar para cada módulo o sobreescribirá otro estado provocando un error.
@@ -10,7 +10,7 @@ terraform {
     key = "pre/terraform.tfstate"
 
     resource_group_name   = "tstatesw"
-    storage_account_name  = "tstatesw14165"
+    storage_account_name  = "tstatesw29147"
     container_name        = "tstatesw"
   }
 }
